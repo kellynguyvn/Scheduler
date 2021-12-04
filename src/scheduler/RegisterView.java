@@ -22,7 +22,7 @@ public class RegisterView {
 
         JPanel runner = new JPanel(new FlowLayout(FlowLayout.LEFT));
         runner.setOpaque(false);
-        BufferedImage hi = ImageIO.read(new File("src/scheduler/pictures/.png"));
+        BufferedImage hi = ImageIO.read(new File("src/scheduler/pictures/logo.png"));
         JButton pic = new JButton(new ImageIcon(hi));
         pic.setMargin(new Insets(0, 0, 0, 0));
         pic.setBackground(null);

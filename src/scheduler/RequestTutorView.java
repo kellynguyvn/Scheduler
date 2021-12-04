@@ -130,7 +130,7 @@ public class RequestTutorView {
         String[] language = {"-", "English", "Spanish", "Vietnamese", "Chinese", "Hindi", "French"};
         JComboBox lastName = new JComboBox(language);
         lastName.setFont(new Font("Avenir Next", Font.PLAIN, 24));
-        BufferedImage bb = ImageIO.read(new File("go.png"));
+        BufferedImage bb = ImageIO.read(new File("src/scheduler/pictures/go.png"));
         JButton bs = new JButton(new ImageIcon(bb));
         bs.setMargin(new Insets(0, 0, 0, 0));
         bs.setBackground(null);
